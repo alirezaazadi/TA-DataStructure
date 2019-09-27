@@ -23,4 +23,4 @@ for C++ (review) and Data structure.
 9. Hash functions and hash tables
 
 
-Course Refrence : [Waterloo](https://ece.uwaterloo.ca/~dwharder/aads/Lecture_materials/)
+Course Reference : [Waterloo](https://ece.uwaterloo.ca/~dwharder/aads/Lecture_materials/)
