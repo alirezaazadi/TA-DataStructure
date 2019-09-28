@@ -1,20 +1,36 @@
 #include <iostream>
 #include "OOP/general.h"
 #include "Macro/example.h"
+#include "PassingTypes/passing_types.h"
 
 void test_my_math();
 void test_macro();
 
+void test_passing_types();
+
 int main() {
 //    test_my_math();
-    test_macro();
+//    test_macro();
+test_passing_types();
     return 0;
 }
 
-void test_macro() {
+void test_passing_types() {
+    int x = 10;
+    int y = 20;
+    std::cout<< "Before Swap : \n" << "x = " << x << " y = " << y << std::endl;
+    std::cout<< "==============" << std::endl;
+//    passing_by_value(x, y);
+//    passing_by_reference(x, y);
+    passing_by_pointer(&x, &y);
+    std::cout<< "==============" << std::endl;
+    std::cout<< "After Swap : \n" << "x = " << x << " y = " << y << std::endl;
 
-    multi_line_macro* testMacro = new multi_line_macro();
-    testMacro->test();
+
+}
+
+void test_macro() {
+    multi_line_macro(5, 0);
 }
 
 void test_my_math() {

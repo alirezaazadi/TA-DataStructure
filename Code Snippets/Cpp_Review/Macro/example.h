@@ -1,27 +1,19 @@
 #ifndef DATASTRUCTURE_EXAMPLE_H
 #define DATASTRUCTURE_EXAMPLE_H
 
+#include <iostream>
+
 #define _FUNC_(X, Y) \
 while(X > 0){ \
     Y++; \
     X--; \
 } \
 
-#include <iostream>
 
-using namespace std;
+void multi_line_macro(int x, int y) {
+    _FUNC_(x, y);
+    std::cout << y << std::endl;
+}
 
-class multi_line_macro {
-private:
-    int x, y;
-public:
-    multi_line_macro() :
-            x(5), y(0) {}
-
-    void test() {
-        _FUNC_(x, y);
-        cout << y;
-    }
-};
 
 #endif //DATASTRUCTURE_EXAMPLE_H
