@@ -18,26 +18,26 @@ int main() {
 //    test_my_math();
 //    test_macro();
 //test_passing_types();
-//    test_pointers();
+    test_pointers();
     return 0;
 }
 
 void test_pointers() {
-//    pointer_and_reference();
-    int *arr_1 = new int[10];
-    for (int i = 0; i < 10; ++i) {
-        arr_1[i] = i;
-    }
-
-    int *arr_2 = new int[10];
-    for (int i = 0; i < 10; ++i) {
-        arr_2[i] = -i;
-    }
-    int a = 1, b = 2, c = 3, d = 4;
-    simple *f = new simple(a, b, arr_1, 10);
-    simple *s = new simple(c, d, arr_2, 10);
-
-    swap_two_pointers(f, s);
+    pointer_and_reference();
+//    int *arr_1 = new int[10];
+//    for (int i = 0; i < 10; ++i) {
+//        arr_1[i] = i;
+//    }
+//
+//    int *arr_2 = new int[10];
+//    for (int i = 0; i < 10; ++i) {
+//        arr_2[i] = -i;
+//    }
+//    int a = 1, b = 2, c = 3, d = 4;
+//    simple *f = new simple(a, b, arr_1, 10);
+//    simple *s = new simple(c, d, arr_2, 10);
+//
+//    swap_two_pointers(f, s);
 }
 
 void test_passing_types() {
