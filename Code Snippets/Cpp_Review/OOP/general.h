@@ -10,7 +10,6 @@
 #define _DIVIDE_(X, Y) X / Y
 #define MAX_LENGTH 1000
 
-
 #include <iostream>
 #include <exception>
 

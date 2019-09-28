@@ -24,5 +24,4 @@ public:
     }
 };
 
-
 #endif //DATASTRUCTURE_EXAMPLE_H

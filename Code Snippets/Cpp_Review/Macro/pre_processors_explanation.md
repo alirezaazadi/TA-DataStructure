@@ -31,4 +31,4 @@ Conditional Compilation directives are type of directives which helps to compile
 
 4. Other directives
 
-for more : [GFG](https://www.geeksforgeeks.org/cc-preprocessors/)
+For more : [GFG](https://www.geeksforgeeks.org/cc-preprocessors/)

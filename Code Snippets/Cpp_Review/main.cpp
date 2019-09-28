@@ -12,6 +12,7 @@ int main() {
 }
 
 void test_macro() {
+
     multi_line_macro* testMacro = new multi_line_macro();
     testMacro->test();
 }
