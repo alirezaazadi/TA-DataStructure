@@ -2,8 +2,8 @@
 // Created by alireza on 9/26/19.
 //
 
-#ifndef DATASTRUCTURE_MY_MATH_H
-#define DATASTRUCTURE_MY_MATH_H
+#ifndef DATASTRUCTURE_GENERAL_H
+#define DATASTRUCTURE_GENERAL_H
 
 #define _MULTIPLY_(X, Y) X * Y
 #define _ADD_(X, Y) X + Y
@@ -110,4 +110,4 @@ my_math<generic>::~my_math() {
 //    delete[] inputs;
 }
 
-#endif //DATASTRUCTURE_MY_MATH_H
+#endif //DATASTRUCTURE_GENERAL_H

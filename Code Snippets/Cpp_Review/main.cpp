@@ -1,8 +1,22 @@
 #include <iostream>
-#include "my_math.h"
+#include "OOP/general.h"
+#include "Macro/example.h"
 
+void test_my_math();
+void test_macro();
 
 int main() {
+//    test_my_math();
+    test_macro();
+    return 0;
+}
+
+void test_macro() {
+    multi_line_macro* testMacro = new multi_line_macro();
+    testMacro->test();
+}
+
+void test_my_math() {
     std::cout << "INT" << std::endl;
     my_math<int> test;
     try{
@@ -27,5 +41,4 @@ int main() {
     arr_[1] = 20;
     arr_[2] = 30;
     std::cout<< test.diff_all(arr_, 3);
-    return 0;
 }
