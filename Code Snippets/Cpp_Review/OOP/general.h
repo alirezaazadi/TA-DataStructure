@@ -12,12 +12,15 @@
 
 #include <iostream>
 #include <exception>
+class test{
 
+};
 template<class generic>
 class my_math {
 private:
 //    generic inputs[MAX_LENGTH];
     int array_index;
+    const int a = 10;
     generic *inputs = nullptr;
 
 public:
@@ -39,9 +42,9 @@ public:
     generic multiply(generic const &first, generic const &second) const {
         return _MULTIPLY_(first, second);
     }
-
-
+    friend class test;
 };
+
 
 template<class generic>
 void my_math<generic>::add_num(const generic &number) {

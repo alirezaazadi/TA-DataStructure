@@ -4,6 +4,7 @@
 #include "PassingTypes/passing_types.h"
 #include "Pointers/pointers.h"
 #include "Pointers/simple_class.h"
+#include "OperatorOverloading/operator_overloading.h"
 
 void test_my_math();
 
@@ -14,12 +15,22 @@ void test_passing_types();
 
 void test_pointers();
 
+void test_operator_overloading();
+
 int main() {
+    test_operator_overloading();
 //    test_my_math();
 //    test_macro();
 //test_passing_types();
-    test_pointers();
+//    test_pointers();
     return 0;
+}
+
+void test_operator_overloading() {
+    String first = String("ali");
+    String second = String("reza");
+    cout << first + second;
+
 }
 
 void test_pointers() {
@@ -61,6 +72,7 @@ void test_macro() {
 void test_my_math() {
     std::cout << "INT" << std::endl;
     my_math<int> test;
+
     try {
         std::cout << test.division(4, 0) << std::endl;
     } catch (std::overflow_error &e) {
