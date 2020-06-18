@@ -1,4 +1,4 @@
-#Friend Classes and Functions
+# Friend Classes and Functions
 
 In some circumstances, 
 it is more convenient to grant member-level access to functions that are not members of a class
