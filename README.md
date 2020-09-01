@@ -6,7 +6,7 @@ Shahrood University of Technology Data Structure TA-Class.
 ****
 **Teaching Assistants** :
 * Alireza Azadi
-* Amir H.Lotfi
+* Amir Mojarrad
 ****
 Code snippets based on lecture materials and extra explanation and examples
 for C++ (review) and Data structure.
